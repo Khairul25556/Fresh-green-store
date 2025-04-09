@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css" />
+    <title>FreshGreens</title>
+</head>
+<body>
+    <h1><i class="fa-solid fa-cart-shopping"></i> Fresh Greens</h1>
+    <input type="text" id="search" placeholder="Search for a product...">
+
+    <div id="product-list"></div>
+
+    <!-- Sticky Footer with Cart, Total, and Buy Button -->
+    <div id="sticky-footer">
+        <div id="cart-items">
+            <h2><i class="fa-solid fa-cart-plus"></i> Cart</h2>
+            <ul id="cart-list"></ul>
+        </div>
+
+        <div id="total">Total: $0</div>
+        <button id="buy-btn">Buy</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
